@@ -130,7 +130,7 @@ async function registerFoodPartner(req, res) {
             message: "Food partnet account already exists"
         })
     }
-
+console.log(isAccountAlreadyExists)
     const hashedPassword = await bcrypt.hash(password, 10)
 
     const foodPartner = await foodPartnerModel.create({
