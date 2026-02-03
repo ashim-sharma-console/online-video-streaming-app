@@ -1,0 +1,1 @@
+create register and login page for user and food-partner use same css file in all the four pages, use css variables for centralize them create variables in seperate css file, i want the UI desing simple, minimle and seamless with light and dark feature according to system settings. no nedd to write the logics like onSubmit just create the UI
